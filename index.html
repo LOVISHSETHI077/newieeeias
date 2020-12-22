@@ -51,11 +51,12 @@
     
     <!-- Preloader -->
 	<div class="spinner-wrapper">
-        <div class="spinner">
-            <div class="bounce1"></div>
-            <div class="bounce2"></div>
-            <div class="bounce3"></div>
+       <div class="anim">
+            <canvas id="scene"></canvas>
+            <input id="copy" type="text" value="IEEE - IAS" />
         </div>
+        
+    
     </div>
     <!-- end of preloader -->
     
@@ -66,7 +67,7 @@
         <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Aria</a> -->
 
         <!-- Image Logo -->
-        <a class="navbar-brand logo-image" href="index.html"><img src="images/ias%20white.png" alt="alternative"></a>
+        <a class="navbar-brand logo-image" href="index.html"><img src="images/ias%20light%20black.png" alt="alternative"></a>
         
         <!-- Mobile Menu Toggle Button -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
@@ -89,49 +90,20 @@
                 <li class="nav-item">
                     <a class="nav-link page-scroll" href="#gallery">GALLERY</a>
                 </li>
-                <li class="nav-item">
+             <!--   <li class="nav-item">
                     <a class="nav-link page-scroll" href="#blogs">BLOG</a>
                 </li>
-            <!--    <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#callMe">CALL ME</a>
-                </li>
 -->
                 <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#projects">PROJECTS</a>
+                    <a class="nav-link page-scroll" href="#about">ABOUT US</a>
                 </li>
-
-                <!-- Dropdown Menu -->          
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle page-scroll" href="#about" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">ABOUT US</a>
-            <!--        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="terms-conditions.html"><span class="item-text">TERMS CONDITIONS</span></a>
-                        <div class="dropdown-items-divide-hr"></div>
-                        <a class="dropdown-item" href="privacy-policy.html"><span class="item-text">PRIVACY POLICY</span></a>
-                    </div>   
-
--->
-                </li>
-                <!-- end of dropdown menu -->
+                
 
                 <li class="nav-item">
                     <a class="nav-link page-scroll" href="#contact">CONTACT</a>
                 </li>
             </ul>
-          <!--  <span class="nav-item social-icons">
-                <span class="fa-stack">
-                    <a href="#your-link">
-                        <span class="hexagon"></span>
-                        <i class="fab fa-facebook-f fa-stack-1x"></i>
-                    </a>
-                </span>
-                <span class="fa-stack">
-                    <a href="#your-link">
-                        <span class="hexagon"></span>
-                        <i class="fab fa-twitter fa-stack-1x"></i>
-                    </a>
-                </span>
-         --   </span>
--->
+          
         </div>
     </nav> <!-- end of navbar -->
     <!-- end of navbar -->
@@ -237,44 +209,52 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-title"></div>
-                    <h1>Department That We're Proud Of</h1>
+                    <h1>EVENTS</h1>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
             <div class="row">
                 <div class="col-lg-12">
                     <!-- Filter -->
                     <div class="button-group filters-button-group">
-                        <a class="button is-checked" data-filter="*"><span>SHOW ALL</span></a>
-                        <a class="button" data-filter=".design"><span>DESIGN</span></a>
-                        <a class="button" data-filter=".development"><span>DEVELOPMENT</span></a>
-                        <a class="button" data-filter=".marketing"><span>MARKETING</span></a>
-                        <a class="button" data-filter=".seo"><span>SEO</span></a>
+                        <a class="button is-checked" data-filter="*"><span>Show All Events</span></a>
+                        <a class="button" data-filter=".design"><span>Past Events</span></a>
+                        <a class="button" data-filter=".development"><span>Future Events</span></a>
+                        
                     </div> <!-- end of button group -->
                     <div class="grid">
-                        <div class="element-item development">
-                            <a class="popup-with-move-anim" href="#project-1"><div class="element-item-overlay"><span>Online Banking</span></div><img src="images/project-1.jpg" alt="alternative"></a>
+                        <div class="element-item design">
+                            <a class="popup-with-move-anim" href="#project-1"><div class="element-item-overlay"><span>IC-ETITE'20</span></div><img src="images/IC-ETITE'20.png" alt="alternative"></a>
+                        </div>
+                        <div class="element-item design">
+                            <a class="popup-with-move-anim" href="#project-2"><div class="element-item-overlay"><span>I-PACT 2019</span></div><img src="images/I-pact%202019.png" alt="alternative"></a>
+                        </div>
+                        <div class="element-item design">
+                            <a class="popup-with-move-anim" href="#project-3"><div class="element-item-overlay"><span>SOCPROS</span></div><img src="images/socpros.jpg" alt="alternative"></a>
+                        </div>
+                        <div class="element-item design">
+                            <a class="popup-with-move-anim" href="#project-4"><div class="element-item-overlay"><span>ENERGY CONSERVATIVE WEEK</span></div><img src="images/Energy%20conservation%20week.jpg" alt="alternative"></a>
+                        </div>
+                        <div class="element-item design">
+                            <a class="popup-with-move-anim" href="#project-5"><div class="element-item-overlay"><span>EXPERT TALK</span></div><img src="images/Expert%20Talk.jpg" alt="alternative"></a>
+                        </div>
+                        <div class="element-item design">
+                            <a class="popup-with-move-anim" href="#project-6"><div class="element-item-overlay"><span>IEEE Societies Meet</span></div><img src="images/IEEE%20Societies%20Meet.jpg" alt="alternative"></a>
+                        </div>
+                        <div class="element-item design">
+                            <a class="popup-with-move-anim" href="#project-7"><div class="element-item-overlay"><span>Code Run Seek 3.0</span></div><img src="images/CRS3.0.jpeg" alt="alternative"></a>
+                        </div>
+                        <div class="element-item design development">
+                            <a class="popup-with-move-anim" href="#project-8"><div class="element-item-overlay"><span>Concept-A-Thon</span></div><img src="images/Concept-A-Thon.jpeg" alt="alternative"></a>
+                        </div>
+                    <!--    <div class="element-item development">
+                            <a class="popup-with-move-anim" href="#project-9"><div class="element-item-overlay"><span>Code Decode</span></div><img src="images/7777.jpeg" alt="alternative"></a>
                         </div>
                         <div class="element-item development">
-                            <a class="popup-with-move-anim" href="#project-2"><div class="element-item-overlay"><span>Classic Industry</span></div><img src="images/project-2.jpg" alt="alternative"></a>
+                            <a class="popup-with-move-anim" href="#project-10"><div class="element-item-overlay"><span>Ignite UI/UX</span></div><img src="images/6666.jpg" alt="alternative"></a>
                         </div>
-                        <div class="element-item design development marketing">
-                            <a class="popup-with-move-anim" href="#project-3"><div class="element-item-overlay"><span>BoomBap Audio</span></div><img src="images/project-3.jpg" alt="alternative"></a>
-                        </div>
-                        <div class="element-item design development marketing">
-                            <a class="popup-with-move-anim" href="#project-4"><div class="element-item-overlay"><span>Van Moose</span></div><img src="images/project-4.jpg" alt="alternative"></a>
-                        </div>
-                        <div class="element-item design development marketing seo">
-                            <a class="popup-with-move-anim" href="#project-5"><div class="element-item-overlay"><span>Joy Moments</span></div><img src="images/project-5.jpg" alt="alternative"></a>
-                        </div>
-                        <div class="element-item design marketing seo">
-                            <a class="popup-with-move-anim" href="#project-6"><div class="element-item-overlay"><span>Spark Events</span></div><img src="images/project-6.jpg" alt="alternative"></a>
-                        </div>
-                        <div class="element-item design marketing">
-                            <a class="popup-with-move-anim" href="#project-7"><div class="element-item-overlay"><span>Casual Wear</span></div><img src="images/project-7.jpg" alt="alternative"></a>
-                        </div>
-                        <div class="element-item design marketing">
-                            <a class="popup-with-move-anim" href="#project-8"><div class="element-item-overlay"><span>Zazoo Apps</span></div><img src="images/project-8.jpg" alt="alternative"></a>
-                        </div>
+                        <div class="element-item development">
+                            <a class="popup-with-move-anim" href="#project-11"><div class="element-item-overlay"><span>Riddland</span></div><img src="images/5555.jpg" alt="alternative"></a>
+                        </div> -->
                     </div> <!-- end of grid -->
                     <!-- end of filter -->
                     
@@ -291,18 +271,16 @@
         <div class="row">
             <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
             <div class="col-lg-8">
-                <img class="img-fluid" src="images/project-1.jpg" alt="alternative">
+                <img class="img-fluid" src="images/IC-ETITE'20.png" alt="alternative">
             </div> <!-- end of col -->
             <div class="col-lg-4">
-                <h3>Online Banking</h3>
+                <h3>ic-ETITE'20</h3>
                 <hr class="line-heading">
-                <h6>Strategy Development</h6>
-                <p>IEEE IAS VIT will be essential to the global technical community and to technical professionals everywhere..</p>
-                <p>IEEE IAS VIT will be essential to the global technical community and to technical professionals everywhere.</p>
-                <div class="testimonial-container">
-                    <p class="testimonial-text">IEEE IAS VIT will be essential to the global technical community and to technical professionals everywhere.</p>
-                    <p class="testimonial-author">General Manager</p>
-                </div>
+                <h6>International Conference</h6>
+                    <p>International Conference on Emerging Trends in Information Technology and Engineering(ic-ETITE-2020), is officially co-sponsored by IEEE Madras Section, IEEE Computer Society, IEEE Communication Society, <strong>IEEE Industry Applications Society-VIT </strong>and ACM-India Council.
+        This event will take place in Vellore Institute of Technology, Vellore during 24-25 February2020.</p>
+                <p>The purpose of this conference is to enhance the research in Information Technology, Computer Engineering, Communication Engineering, Electronics Engineering and to afford an international platform for the researchers, academicians, engineers, industrialists and students around the world to share their research findings with the global experts in the field of Science and Technology</p>
+                
                 <a class="btn-solid-reg" href="#your-link">DETAILS</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
             </div> <!-- end of col -->
         </div> <!-- end of row -->
@@ -314,18 +292,14 @@
         <div class="row">
             <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
             <div class="col-lg-8">
-                <img class="img-fluid" src="images/project-2.jpg" alt="alternative">
+                <img class="img-fluid" src="images/I-pact%202019.png" alt="alternative">
             </div> <!-- end of col -->
             <div class="col-lg-4">
-                <h3>Classic Industry</h3>
+                <h3>Ipact 2019</h3>
                 <hr class="line-heading">
-                <h6>Strategy Development</h6>
-                <p>IEEE IAS VIT will be essential to the global technical community and to technical professionals everywhere..</p>
-                <p>IEEE IAS VIT will be essential to the global technical community and to technical professionals everywhere..</p>
-                <div class="testimonial-container">
-                    <p class="testimonial-text">IEEE IAS VIT will be essential to the global technical community and to technical professionals everywhere.</p>
-                    <p class="testimonial-author">General Manager</p>
-                </div>
+                <h6>International Conferenc</h6>
+                <p>2nd International Conference on Innovations in Power and Advanced Computing Technologies, i-PACT-2019, <strong>Technically co-sponsored by IEEE-IAS</strong> in association with IEEE-NPSS-VIT intends to provide a platform for the exchange of ideas amongst researchers, professionals, academicians, corporate & industry professionals, technically sound students and entrepreneurs in various disciplines across the globe to present the state of the art innovations in power and advanced computing technologies and point out the new trends in current research activities and emerging technologies. This event took place in Vellore Institute of Technology, Vellore on 22 & 23 March, 2019. Papers are encouraged on all topics given under the call for papers, to enable interdisciplinary discussions of the latest developments in the field of Electrical Power, Electronics, Nuclear and Computer Engineering. All the conference proceedings will be submitted to the IEEE Digital Explore library.</p>
+                
                 <a class="btn-solid-reg" href="#your-link">DETAILS</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
             </div> <!-- end of col -->
         </div> <!-- end of row -->
@@ -337,18 +311,15 @@
         <div class="row">
             <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
             <div class="col-lg-8">
-                <img class="img-fluid" src="images/project-3.jpg" alt="alternative">
+                <img class="img-fluid" src="images/socpros.jpg" alt="alternative">
             </div> <!-- end of col -->
             <div class="col-lg-4">
-                <h3>BoomBap Audio</h3>
+                <h3>Socpros 2018</h3>
                 <hr class="line-heading">
-                <h6>Strategy Development</h6>
-                <p>Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current needs</p>
-                <p>By offering the best professional services and quality products in the market. Don't hesitate and get in touch with us.</p>
-                <div class="testimonial-container">
-                    <p class="testimonial-text">Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current requirements.</p>
-                    <p class="testimonial-author">General Manager</p>
-                </div>
+                <h6>International Conference</h6>
+                <p>8th International Conference on Soft Computing for Problem Solving - SocProS 2018.</p>
+    <p>SocProS is a series of International Conference and the signature event of Soft Computing Research Society. SocProS aims to bring together the researchers, engineers and practitioners to present the latest achievements and innovations in the interdisciplinary areas of soft computing to discuss thought-provoking developments and challenges, in order to select potential future directions.</p>
+                
                 <a class="btn-solid-reg" href="#your-link">DETAILS</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
             </div> <!-- end of col -->
         </div> <!-- end of row -->
@@ -360,18 +331,14 @@
         <div class="row">
             <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
             <div class="col-lg-8">
-                <img class="img-fluid" src="images/project-4.jpg" alt="alternative">
+                <img class="img-fluid" src="images/Energy%20conservation%20week.jpg" alt="alternative">
             </div> <!-- end of col -->
             <div class="col-lg-4">
-                <h3>Van Moose</h3>
+                <h3>Energy conservation week</h3>
                 <hr class="line-heading">
-                <h6>Strategy Development</h6>
-                <p>Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current needs</p>
-                <p>By offering the best professional services and quality products in the market. Don't hesitate and get in touch with us.</p>
-                <div class="testimonial-container">
-                    <p class="testimonial-text">Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current requirements.</p>
-                    <p class="testimonial-author">General Manager</p>
-                </div>
+                <h6></h6>
+               <p>An effort to create awareness and disseminate information on energy efficiency and conservation.</p>
+                
                 <a class="btn-solid-reg" href="#your-link">DETAILS</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
             </div> <!-- end of col -->
         </div> <!-- end of row -->
@@ -383,18 +350,14 @@
         <div class="row">
             <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
             <div class="col-lg-8">
-                <img class="img-fluid" src="images/project-5.jpg" alt="alternative">
+                <img class="img-fluid" src="images/Expert%20Talk.jpg" alt="alternative">
             </div> <!-- end of col -->
             <div class="col-lg-4">
-                <h3>Joy Moments</h3>
+                <h3>Expert Talk</h3>
                 <hr class="line-heading">
-                <h6>Strategy Development</h6>
-                <p>Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current needs</p>
-                <p>By offering the best professional services and quality products in the market. Don't hesitate and get in touch with us.</p>
-                <div class="testimonial-container">
-                    <p class="testimonial-text">Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current requirements.</p>
-                    <p class="testimonial-author">General Manager</p>
-                </div>
+                <h6></h6>
+                 <p>The Imperial Society of Innovation Engineers(ISIE)India, in associated with the society of Manufacture of Electric Vehicle (SMEV), the skill council for Green Jobs (SCGJ) and VIT Vellore held the first conference in the south section , which was discussion on the future trend of mobility.</p>
+                
                 <a class="btn-solid-reg" href="#your-link">DETAILS</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
             </div> <!-- end of col -->
         </div> <!-- end of row -->
@@ -406,18 +369,14 @@
         <div class="row">
             <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
             <div class="col-lg-8">
-                <img class="img-fluid" src="images/project-6.jpg" alt="alternative">
+                <img class="img-fluid" src="images/IEEE%20Societies%20Meet.jpg" alt="alternative">
             </div> <!-- end of col -->
             <div class="col-lg-4">
-                <h3>Spark Events</h3>
+                <h3>IEEE Societies Meet</h3>
                 <hr class="line-heading">
-                <h6>Strategy Development</h6>
-                <p>Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current needs</p>
-                <p>By offering the best professional services and quality products in the market. Don't hesitate and get in touch with us.</p>
-                <div class="testimonial-container">
-                    <p class="testimonial-text">Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current requirements.</p>
-                    <p class="testimonial-author">General Manager</p>
-                </div>
+                <h6></h6>
+                <p>An event in which all IEEE Societies in VIT gathered at one place in the presence of Prof. Vincenzo Piuri, 2019 IEEE President Elect.</p>
+               
                 <a class="btn-solid-reg" href="#your-link">DETAILS</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
             </div> <!-- end of col -->
         </div> <!-- end of row -->
@@ -429,18 +388,27 @@
         <div class="row">
             <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
             <div class="col-lg-8">
-                <img class="img-fluid" src="images/project-7.jpg" alt="alternative">
+                <img class="img-fluid" src="images/CRS3.0.jpeg" alt="alternative">
             </div> <!-- end of col -->
             <div class="col-lg-4">
-                <h3>Casual Wear</h3>
+                <h3>Code run seek 3.0</h3>
                 <hr class="line-heading">
-                <h6>Strategy Development</h6>
-                <p>Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current needs</p>
-                <p>By offering the best professional services and quality products in the market. Don't hesitate and get in touch with us.</p>
-                <div class="testimonial-container">
-                    <p class="testimonial-text">Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current requirements.</p>
-                    <p class="testimonial-author">General Manager</p>
-                </div>
+                <h6></h6>
+                <p> 
+An event by ieee ias and ieee wie in collaboration. Sponsors :coding ninjas
+It is a team event. A team of minimum 2 members and a maximum of 4 members. 
+It is a three rounds event 
+First round: 7 or 8 easy- medium coding questions. 
+Second round: a fun round. an online web hunt that involve social media handles of bthe the clubs. A very fun round. 
+Third round: one coding question. The first to solve wins 
+Points: 
+</p>
+                <p>1.	A lot of fun goodies by our sponsors to the winners 
+2.	Vouchers and discount coupons to the participants 
+3.	It is just 100 rs this year as it is online which is a good opportunity for everyone as usually it has a higher fee. ( for freshers it is a good opportunity to test their skills this year )
+4.	You can team up with anyone you want and they don’t have to come all the way to vit to participate. 
+5.	The web hunt will be a new experience for everyone</p>
+                
                 <a class="btn-solid-reg" href="#your-link">DETAILS</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
             </div> <!-- end of col -->
         </div> <!-- end of row -->
@@ -452,18 +420,76 @@
         <div class="row">
             <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
             <div class="col-lg-8">
-                <img class="img-fluid" src="images/project-8.jpg" alt="alternative">
+                <img class="img-fluid" src="images/Concept-A-Thon.jpeg" alt="alternative">
             </div> <!-- end of col -->
             <div class="col-lg-4">
-                <h3>Zazoo Apps</h3>
+                <h3>Concept-A-Thon</h3>
                 <hr class="line-heading">
-                <h6>Strategy Development</h6>
+                <h6></h6>
+                <p>“Innovation is the only way to win.”
+A 24 hour Idea-Thon, that enables the participants to face challenging problem statements on various sectors affected by the pandemic. It also comprises of  webinar series from industry experts in the domains of Web Development, App Development, Cyber Security, and Marketing Strategies.
+A global platform to present new ideas and ignite the curious minds!</p>
+                
+                <a class="btn-solid-reg" href="#your-link">DETAILS</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+    </div> <!-- end of lightbox-basic -->
+    <!-- end of lightbox -->
+    
+     <!-- Lightbox -->
+    <div id="project-9" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="row">
+            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+            <div class="col-lg-8">
+                <img class="img-fluid" src="images/7777.jpeg" alt="alternative">
+            </div> <!-- end of col -->
+            <div class="col-lg-4">
+                <h3>Coder Decode</h3>
+                <hr class="line-heading">
+                <h6></h6>
                 <p>Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current needs</p>
                 <p>By offering the best professional services and quality products in the market. Don't hesitate and get in touch with us.</p>
-                <div class="testimonial-container">
-                    <p class="testimonial-text">Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current requirements.</p>
-                    <p class="testimonial-author">General Manager</p>
-                </div>
+                
+                <a class="btn-solid-reg" href="#your-link">DETAILS</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+    </div> <!-- end of lightbox-basic -->
+    <!-- end of lightbox -->
+    
+     <!-- Lightbox -->
+    <div id="project-10" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="row">
+            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+            <div class="col-lg-8">
+                <img class="img-fluid" src="images/6666.jpg" alt="alternative">
+            </div> <!-- end of col -->
+            <div class="col-lg-4">
+                <h3>A UI/UX Design Workshop</h3>
+                <hr class="line-heading">
+                <h6></h6>
+                <p>Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current needs</p>
+                <p>By offering the best professional services and quality products in the market. Don't hesitate and get in touch with us.</p>
+                
+                <a class="btn-solid-reg" href="#your-link">DETAILS</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+    </div> <!-- end of lightbox-basic -->
+    <!-- end of lightbox -->
+    
+     <!-- Lightbox -->
+    <div id="project-11" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="row">
+            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+            <div class="col-lg-8">
+                <img class="img-fluid" src="images/5555.jpg" alt="alternative">
+            </div> <!-- end of col -->
+            <div class="col-lg-4">
+                <h3>Riddland</h3>
+                <hr class="line-heading">
+                <h6></h6>
+                <p>Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current needs</p>
+                <p>By offering the best professional services and quality products in the market. Don't hesitate and get in touch with us.</p>
+                
                 <a class="btn-solid-reg" href="#your-link">DETAILS</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
             </div> <!-- end of col -->
         </div> <!-- end of row -->
@@ -471,400 +497,18 @@
     <!-- end of lightbox -->
     <!-- end of project lightboxes -->
 
-    
-   <!-- <div id="services" class="cards-2">
-        <div class="container">
-    <!--    <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-title">SERVICES</div>
-                    <h2>Choose The Service Package<br> That Suits Your Needs</h2>
-                </div> <!-- end of col -->
-    <!--        </div> <!-- end of row -->
-    <!--  <div class="row">
-                <div class="col-lg-12">
-                    
-                    <!-- Card -->
-    <!--                <div class="card">
-                        <div class="card-image">
-                            <img class="img-fluid" src="images/services-1.jpg" alt="alternative">
-                        </div>
-                        <div class="card-body">
-                            <h3 class="card-title">Off The Ground Off The Ground</h3>
-                            <p>Perfect for fresh ideas or young startups, this package will help get the business off the ground</p>
-                            <ul class="list-unstyled li-space-lg">
-                                <li class="media">
-                                    <i class="fas fa-square"></i>
-                                    <div class="media-body">Environment and competition</div>
-                                </li>
-                                <li class="media">
-                                    <i class="fas fa-square"></i>
-                                    <div class="media-body">Designing the marketing plan</div>
-                                </li>
-                            </ul>
-                            <p class="price">Starting at <span>$199</span></p>
-                        </div>
-                        <div class="button-container">
-                            <a class="btn-solid-reg page-scroll" href="#callMe">DETAILS</a>
-                        </div> <!-- end of button-container -->
-       <!--             </div>
-                    <!-- end of card -->
-
-                    <!-- Card -->
-     <!--               <div class="card">
-                        <div class="card-image">
-                            <img class="img-fluid" src="images/services-2.jpg" alt="alternative">
-                        </div>
-                        <div class="card-body">
-                            <h3 class="card-title">Accelerated Growth</h3>
-                            <p>Use this service pack to give your company the necessary impulse to become an industry leader</p>
-                            <ul class="list-unstyled li-space-lg">
-                                <li class="media">
-                                    <i class="fas fa-square"></i>
-                                    <div class="media-body">Business strategy planning</div>
-                                </li>
-                                <li class="media">
-                                    <i class="fas fa-square"></i>
-                                    <div class="media-body">Taking the planned actions</div>
-                                </li>
-                            </ul>
-                            <p class="price">Starting at <span>$299</span></p>
-                        </div>
-                        <div class="button-container">
-                            <a class="btn-solid-reg page-scroll" href="#callMe">DETAILS</a>
-                        </div> <!-- end of button-container -->
-    <!--                </div>
-                    <!-- end of card -->
-
-                    <!-- Card -->
-    <!--                <div class="card">
-                        <div class="card-image">
-                            <img class="img-fluid" src="images/services-3.jpg" alt="alternative">
-                        </div>
-                        <div class="card-body">
-                            <h3 class="card-title">Market Domination</h3>
-                            <p>You already are a reference point in your industry now you need to learn about acquisitions</p>
-                            <ul class="list-unstyled li-space-lg">
-                                <li class="media">
-                                    <i class="fas fa-square"></i>
-                                    <div class="media-body">Maintaining the leader status</div>
-                                </li>
-                                <li class="media">
-                                    <i class="fas fa-square"></i>
-                                    <div class="media-body">Acquisitions the right way</div>
-                                </li>
-                            </ul>
-                            <p class="price">Starting at <span>$299</span></p>
-                        </div>
-                        <div class="button-container">
-                            <a class="btn-solid-reg page-scroll" href="#callMe">DETAILS</a>
-                        </div> <!-- end of button-container -->
-        <!--            </div>
-                    <!-- end of card -->
-
-      <!--          </div> <!-- end of col -->
-<!--            </div> <!-- end of row -->
-<!--           </div> <!-- end of container -->
-<!--                 </div> <!-- end of cards-2 -->
-    <!-- end of services -->
-    
-
-    <!-- Details 1 -->
-<!--     	<div id="details" class="accordion">
-		<div class="area-1">
-		</div><!-- end of area-1 on same line and no space between comments to eliminate margin white space -->
-      <!--      <div class="area-2">
-            
-            <!-- Accordion -->
-    <!--        <div class="accordion-container" id="accordionOne">
-                <h2>Accelerate Business Growth To Improve Revenue Numbers</h2>
-                <div class="item">
-                    <div id="headingOne">
-                        <span data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" role="button">
-                            <span class="circle-numbering">1</span><span class="accordion-title">How Can Aria Help Your Business</span>
-                        </span>
-                    </div>
-                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionOne">
-                        <div class="accordion-body">
-                            At Aria solutions, we’ve taken the consultancy concept one step further by offering a full service management organization with expertise.
-                        </div>
-                    </div>
-                </div> <!-- end of item -->
-            
-   <!--             <div class="item">
-                    <div id="headingTwo">
-                        <span class="collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" role="button">
-                            <span class="circle-numbering">2</span><span class="accordion-title">Great Strategic Business Planning</span>
-                        </span>
-                    </div>
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionOne">
-                        <div class="accordion-body">
-                            Aria partners with businesses to business growth and development ideas including environment analysis, plan execution and evaluation.
-                        </div>
-                    </div>
-                </div> <!-- end of item -->
-            
-       <!--         <div class="item">
-                    <div id="headingThree">
-                        <span class="collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" role="button">
-                            <span class="circle-numbering">3</span><span class="accordion-title">Online Marketing Campaigns</span>
-                        </span>
-                    </div>
-                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionOne">
-                        <div class="accordion-body">
-                            An awesome online marketing plan won't save your bad product but paired with a good product, the sky is the limit for what can be achieved.
-                        </div>
-                    </div>
-                </div> <!-- end of item -->
-   <!--         </div> <!-- end of accordion-container -->
-            <!-- end of accordion -->
-
-	<!--	</div> <!-- end of area-2 -->
-    <!--        </div> <!-- end of accordion -->
-    <!-- end of details 1 -->
-
-
-    <!-- Details 2 -->
-<!--	      <div class="tabs">
-        <div class="area-1">
-            <div class="tabs-container">
-                
-                <!-- Tabs Links -->
-    <!--            <ul class="nav nav-tabs" id="ariaTabs" role="tablist">
-                    <li class="nav-item">
-                        <a class="nav-link active" id="nav-tab-1" data-toggle="tab" href="#tab-1" role="tab" aria-controls="tab-1" aria-selected="true"><i class="fas fa-th"></i> Business</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="nav-tab-2" data-toggle="tab" href="#tab-2" role="tab" aria-controls="tab-2" aria-selected="false"><i class="fas fa-th"></i> Expertise</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="nav-tab-3" data-toggle="tab" href="#tab-3" role="tab" aria-controls="tab-3" aria-selected="false"><i class="fas fa-th"></i> Quality</a>
-                    </li>
-                </ul>
-                <!-- end of tabs links -->
-                
-                <!-- Tabs Content -->
-<!--                <div class="tab-content" id="ariaTabsContent">
-
-                    <!-- Tab -->
-    <!--                <div class="tab-pane fade show active" id="tab-1" role="tabpanel" aria-labelledby="tab-1">
-                        <h4>Business Services For Companies</h4>
-                        <p>Aria provides the most innovative and customized business services in the industry. Our <a class="green page-scroll" href="#services">Services</a> section shows how flexible we are for all types of budgets.</p>
-                        
-                        <!-- Progress Bars -->
-       <!--                 <div class="progress-container">
-                            <div class="title">Business Development 100%</div>
-                            <div class="progress">
-                                <div class="progress-bar first" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <div class="title">Opportunity Spotting 76%</div>
-                            <div class="progress">
-                                <div class="progress-bar second" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <div class="title">Online Marketing 90%</div>
-                            <div class="progress">
-                                <div class="progress-bar third" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                        </div> <!-- end of progress-container -->
-                        <!-- end of progress bars -->
-                        
-       <!--             </div> <!-- end of tab-pane --> 
-                    <!-- end of tab -->
-
-                    <!-- Tab -->
-           <!--         <div class="tab-pane fade" id="tab-2" role="tabpanel" aria-labelledby="tab-2">
-                        <ul class="list-unstyled li-space-lg first">
-                            <li class="media">
-                                <div class="media-bullet">1</div>
-                                <div class="media-body"><strong>High quality</strong> is on top of our list when it comes to the way we deliver the services</div>
-                            </li>
-                            <li class="media">
-                                <div class="media-bullet">2</div>
-                                <div class="media-body"><strong>Maximum impact</strong> is what we look for in our actions</div>
-                            </li>
-                            <li class="media">
-                                <div class="media-bullet">3</div>
-                                <div class="media-body"><strong>Quality standards</strong> are important but meant to be exceeded</div>
-                            </li>
-                        </ul>
-                        <ul class="list-unstyled li-space-lg last">
-                            <li class="media">
-                                <div class="media-bullet">4</div>
-                                <div class="media-body"><strong>We're always looking</strong> for industry leaders to help them win their market position</div>
-                            </li>
-                            <li class="media">
-                                <div class="media-bullet">5</div>
-                                <div class="media-body"><strong>Evaluation</strong> is a key aspect of this business and important</div>
-                            </li>
-                            <li class="media">
-                                <div class="media-bullet">6</div>
-                                <div class="media-body"><strong>Ethic</strong> procedures ar alwasy at the base of everything we do</div>
-                            </li>
-                        </ul>
-                    </div> <!-- end of tab-pane -->
-                    <!-- end of tab -->
-
-                    <!-- Tab -->
-     <!--               <div class="tab-pane fade" id="tab-3" role="tabpanel" aria-labelledby="tab-3">
-                        <p><strong>We strive to achieve</strong> 100% customer satisfaction for both types of customers: hiring companies and job seekers. Types of customers: <a class="green" href="#your-link">with huge potential</a></p>
-                        <p><strong>Our goal is to help</strong> your company achieve its full potential and establish long term stability for <a class="green" href="#your-link">the stakeholders</a></p>
-                        <ul class="list-unstyled li-space-lg">
-                            <li class="media">
-                                <i class="fas fa-square"></i>
-                                <div class="media-body">It's easy to get a quotation, just call our office anytime</div>
-                            </li>
-                            <li class="media">
-                                <i class="fas fa-square"></i>
-                                <div class="media-body">We'll get back to you with an initial estimate soon</div>
-                            </li>
-                            <li class="media">
-                                <i class="fas fa-square"></i>
-                                <div class="media-body">Get ready to see results even after only 30 days</div>
-                            </li>
-                            <li class="media">
-                                <i class="fas fa-square"></i>
-                                <div class="media-body">Ask for a quote and start improving your business</div>
-                            </li>
-                            <li class="media">
-                                <i class="fas fa-square"></i>
-                                <div class="media-body">Just fill out the form and we'll call you right away</div>
-                            </li>
-                        </ul>
-                    </div> <!-- end of tab-pane -->
-                    <!-- end of tab -->
-
-        <!--        </div> <!-- end of tab-content -->
-                <!-- end of tabs content -->
-
-      <!--      </div> <!-- end of tabs-container -->
-  <!--      </div><!-- end of area-1 on same line and no space between comments to eliminate margin white space -->
- <!--           <div class="area-2"></div> <!-- end of area-2 -->
-   <!--  </div> <!-- end of tabs -->
-    <!-- end of details 2 -->
-
-
-    <!-- Testimonials -->
-    <div class="slider">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2>Read Our Customer Testimonials</h2>
-                    <p class="p-heading">Our clients are our partners and we can not imagine a better future for our company without helping them reach their objectives</p>
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-            
-            
-            
-            <div class="row">
-                <div class="col-lg-12">
-
-                    <!-- Card Slider -->
-                    <div class="slider-container">
-                        <div class="swiper-container card-slider">
-                            <div class="swiper-wrapper">
-                                
-                                <!-- Slide -->
-                                <div class="swiper-slide">
-                                    <div class="card">
-                                        <img class="card-image" src="images/testimonial-1.jpg" alt="alternative">
-                                        <div class="card-body">
-                                            <div class="testimonial-text">The guys from Aria helped with getting my business off the ground and turning into a profitable company.</div>
-                                            <div class="testimonial-author">Jude Thorn - Founder</div>
-                                        </div>
-                                    </div>
-                                </div> <!-- end of swiper-slide -->
-                                <!-- end of slide -->
-        
-                                <!-- Slide -->
-                                <div class="swiper-slide">
-                                    <div class="card">
-                                        <img class="card-image" src="images/testimonial-2.jpg" alt="alternative">
-                                        <div class="card-body">
-                                            <div class="testimonial-text">I purchased the Growth Accelerator service pack a few years ago and I renewed the contract each year. </div>
-                                            <div class="testimonial-author">Marsha Singer - Marketer</div>
-                                        </div>
-                                    </div>        
-                                </div> <!-- end of swiper-slide -->
-                                <!-- end of slide -->
-        
-                                <!-- Slide -->
-                                <div class="swiper-slide">
-                                    <div class="card">
-                                        <img class="card-image" src="images/testimonial-3.jpg" alt="alternative">
-                                        <div class="card-body">
-                                            <div class="testimonial-text">Aria's CEO personally attends client meetings and gives his feedback on business growth strategies.</div>
-                                            <div class="testimonial-author">Roy Smith - Developer</div>
-                                        </div>
-                                    </div>        
-                                </div> <!-- end of swiper-slide -->
-                                <!-- end of slide -->
-        
-                                <!-- Slide -->
-                                <div class="swiper-slide">
-                                    <div class="card">
-                                        <img class="card-image" src="images/testimonial-4.jpg" alt="alternative">
-                                        <div class="card-body">
-                                            <div class="testimonial-text">At the beginning I thought the prices are a little high for what they offer but they over deliver each and every time.</div>
-                                            <div class="testimonial-author">Ronald Spice - Owner</div>
-                                        </div>
-                                    </div>
-                                </div> <!-- end of swiper-slide -->
-                                <!-- end of slide -->
-        
-                                <!-- Slide -->
-                                <div class="swiper-slide">
-                                    <div class="card">
-                                        <img class="card-image" src="images/testimonial-5.jpg" alt="alternative">
-                                        <div class="card-body">
-                                            <div class="testimonial-text">I recommend Aria to every business owner or growth leader that wants to take his company to the next level.</div>
-                                            <div class="testimonial-author">Lindsay Rune - Manager</div>
-                                        </div>
-                                    </div>        
-                                </div> <!-- end of swiper-slide -->
-                                <!-- end of slide -->
-        
-                                <!-- Slide -->
-                                <div class="swiper-slide">
-                                    <div class="card">
-                                        <img class="card-image" src="images/testimonial-6.jpg" alt="alternative">
-                                        <div class="card-body">
-                                            <div class="testimonial-text">My goals for using Aria's services seemed high when I first set them but they've met them with no problems.</div>
-                                            <div class="testimonial-author">Ann Black - Consultant</div>
-                                        </div>
-                                    </div>        
-                                </div> <!-- end of swiper-slide -->
-                                <!-- end of slide -->
-                            
-                            </div> <!-- end of swiper-wrapper -->
-        
-                            <!-- Add Arrows -->
-                            <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
-                            <!-- end of add arrows -->
-        
-                        </div> <!-- end of swiper-container -->
-                    </div> <!-- end of sliedr-container -->
-                    <!-- end of card slider -->
-
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of slider -->
-    <!-- end of testimonials -->
-            
-            
-            
-            <!-- Gallery -->
+    <!-- Gallery -->
     <div id="gallery" class="cards-2">
         <div class="container">
-            <!-- Testimonials -->
+            
     <div class="slider">
         <div class="container">
-       <!--     <div class="row">
+           <div class="row">
                 <div class="col-lg-12">
-                    <h2>Read Our Customer Testimonials</h2>
-                    <p class="p-heading">Our clients are our partners and we can not imagine a better future for our company without helping them reach their objectives</p>
+                    <h1>GALLERY</h1>
+                    
                 </div> <!-- end of col -->
-      <!--     </div> <!-- end of row -->
+          </div> <!-- end of row -->
             
              <div class="main-carousel" data-flickity='{"cellAlign": "center"}'>
         <div class="carousel-cell">
@@ -891,7 +535,6 @@
         <div class="carousel-cell">
             <img class="carousel-image" src="./10.jpeg" alt="4th Image">
         </div>
-        
         <div class="carousel-cell">
             <img class="carousel-image" src="./36.jpg" alt="4th Image">
         </div>
@@ -919,7 +562,6 @@
         <div class="carousel-cell">
             <img class="carousel-image" src="./61.png" alt="4th Image">
         </div>
-             
         <div class="carousel-cell">
             <img class="carousel-image" src="./410.jpg" alt="4th Image">
         </div>
@@ -932,147 +574,35 @@
         <div class="carousel-cell">
             <img class="carousel-image" src="./40.jpg" alt="4th Image">
         </div>
-        
-
-        
-            </div>
-      <!--      
-            <div class="row">
-                <div class="col-lg-12">
-
-                    <!-- Card Slider -->
-    <!--                <div class="slider-container">
-                        <div class="swiper-container card-slider">
-                            <div class="swiper-wrapper">
-                                
-                                <!-- Slide -->
-    <!--                            <div class="swiper-slide">
-                                    <div class="card">
-                                        <img class="card-image" src="images/testimonial-1.jpg" alt="alternative">
-                                        <div class="card-body">
-                                            <div class="testimonial-text">The guys from Aria helped with getting my business off the ground and turning into a profitable company.</div>
-                                            <div class="testimonial-author">Jude Thorn - Founder</div>
-                                        </div>
-                                    </div>
-                                </div> <!-- end of swiper-slide -->
-                                <!-- end of slide -->
-        
-                                <!-- Slide -->
-    <!--                            <div class="swiper-slide">
-                                    <div class="card">
-                                        <img class="card-image" src="images/testimonial-2.jpg" alt="alternative">
-                                        <div class="card-body">
-                                            <div class="testimonial-text">I purchased the Growth Accelerator service pack a few years ago and I renewed the contract each year. </div>
-                                            <div class="testimonial-author">Marsha Singer - Marketer</div>
-                                        </div>
-                                    </div>        
-                                </div> <!-- end of swiper-slide -->
-                                <!-- end of slide -->
-        
-                                <!-- Slide -->
-<!--                                <div class="swiper-slide">
-                                    <div class="card">
-                                        <img class="card-image" src="images/testimonial-3.jpg" alt="alternative">
-                                        <div class="card-body">
-                                            <div class="testimonial-text">Aria's CEO personally attends client meetings and gives his feedback on business growth strategies.</div>
-                                            <div class="testimonial-author">Roy Smith - Developer</div>
-                                        </div>
-                                    </div>        
-                                </div> <!-- end of swiper-slide -->
-                                <!-- end of slide -->
-        
-                                <!-- Slide -->
-        <!--                        <div class="swiper-slide">
-    <!--                                <div class="card">
-                                        <img class="card-image" src="images/testimonial-4.jpg" alt="alternative">
-                                        <div class="card-body">
-                                            <div class="testimonial-text">At the beginning I thought the prices are a little high for what they offer but they over deliver each and every time.</div>
-                                            <div class="testimonial-author">Ronald Spice - Owner</div>
-                                        </div>
-                                    </div>
-                                </div> <!-- end of swiper-slide -->
-                                <!-- end of slide -->
-        
-                                <!-- Slide -->
-       <!--                         <div class="swiper-slide">
-                                    <div class="card">
-                                        <img class="card-image" src="images/testimonial-5.jpg" alt="alternative">
-                                        <div class="card-body">
-                                            <div class="testimonial-text">I recommend Aria to every business owner or growth leader that wants to take his company to the next level.</div>
-                                            <div class="testimonial-author">Lindsay Rune - Manager</div>
-                                        </div>
-                                    </div>        
-                                </div> <!-- end of swiper-slide -->
-                                <!-- end of slide -->
-        
-                                <!-- Slide -->
-        <!--                        <div class="swiper-slide">
-                                    <div class="card">
-                                        <img class="card-image" src="images/testimonial-6.jpg" alt="alternative">
-                                        <div class="card-body">
-                                            <div class="testimonial-text">My goals for using Aria's services seemed high when I first set them but they've met them with no problems.</div>
-                                            <div class="testimonial-author">Ann Black - Consultant</div>
-                                        </div>
-                                    </div>        
-                                </div> <!-- end of swiper-slide -->
-                                <!-- end of slide -->
-                            
-                 <!--           </div> <!-- end of swiper-wrapper -->
-        
-                            <!-- Add Arrows -->
-               <!--             <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
-                            <!-- end of add arrows -->
-        
-    <!--                    </div> <!-- end of swiper-container -->
-    <!--                </div> <!-- end of sliedr-container -->
-                    <!-- end of card slider -->
-
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
+        </div> <!-- end of main-carousel-->
         </div> <!-- end of container -->
     </div> <!-- end of slider -->
     <!-- end of testimonials -->
+        </div><!-- end of container --->
+    </div> <!-- end of cards-2 ---><!-- end of Gallery --->
             
-                <!-- BLOGS -->
-    <div id="blogs" class="cards-2">
+    <!-- BLOGS -->
+   <!-- <div id="blogs" class="cards-2">
         <div class="container">
             <!-- Testimonials -->
-    <div class="slider">
+<!--        <div class="slider">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <h1>BLOGS</h1>
-                   <!-- <p class="p-heading">Our clients are our partners and we can not imagine a better future for our company without helping them reach their objectives</p> -->
+                   
                 </div> <!-- end of col -->
-            </div> <!-- end of row -->
-            
-            
-            
-            <div class="row">
+<!--            </div> <!-- end of row -->
+    <!--        <div class="row">
                 <div class="col-lg-12">
 
                     <!-- Card Slider -->
-                    <div class="slider-container">
+<!--                    <div class="slider-container">
                         <div class="swiper-container card-slider">
                             <div class="swiper-wrapper">
-                                
-                                
                                 <div class="row">
-     <!--   <div class="col-6">
-            <h3 class="mb-3">Carousel cards title </h3>
-        </div>
--->
-       <!-- <div class="col-6 text-right">
-            <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">
-                <i class="fa fa-arrow-left"></i>
-            </a>
-            <a class="btn btn-primary mb-3 " href="#carouselExampleIndicators2" role="button" data-slide="next">
-                <i class="fa fa-arrow-right"></i>
-            </a>
-        </div>
-
--->
+      
+        
         <div class="col-12">
             <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
 <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">
@@ -1195,658 +725,27 @@
             </div>
         </div>
     </div>
-                                
-                                <!-- Slide -->
-             <!--       <div class="swiper-slide">
-                                    <div class="card">
-                                        <img class="card-image" src="images/testimonial-1.jpg" alt="alternative">
-                                        <div class="card-body">
-                                            <div class="testimonial-text">The guys from Aria helped with getting my business off the ground and turning into a profitable company.</div>
-                                            <div class="testimonial-author">Jude Thorn - Founder</div>
-                                        </div>
-                                    </div>
-                                </div> <!-- end of swiper-slide -->
-                                <!-- end of slide -->
+                                </div> <!-- end of swiper-wrapper -->
         
-                                <!-- Slide -->
-         <!--                       <div class="swiper-slide">
-                                    <div class="card">
-                                        <img class="card-image" src="images/testimonial-2.jpg" alt="alternative">
-                                        <div class="card-body">
-                                            <div class="testimonial-text">I purchased the Growth Accelerator service pack a few years ago and I renewed the contract each year. </div>
-                                            <div class="testimonial-author">Marsha Singer - Marketer</div>
-                                        </div>
-                                    </div>        
-                                </div> <!-- end of swiper-slide -->
-                                <!-- end of slide -->
-        
-                                <!-- Slide -->
-          <!--                      <div class="swiper-slide">
-                                    <div class="card">
-                                        <img class="card-image" src="images/testimonial-3.jpg" alt="alternative">
-                                        <div class="card-body">
-                                            <div class="testimonial-text">Aria's CEO personally attends client meetings and gives his feedback on business growth strategies.</div>
-                                            <div class="testimonial-author">Roy Smith - Developer</div>
-                                        </div>
-                                    </div>        
-                                </div> <!-- end of swiper-slide -->
-                                <!-- end of slide -->
-        
-                                <!-- Slide -->
-        <!--                        <div class="swiper-slide">
-                                    <div class="card">
-                                        <img class="card-image" src="images/testimonial-4.jpg" alt="alternative">
-                                        <div class="card-body">
-                                            <div class="testimonial-text">At the beginning I thought the prices are a little high for what they offer but they over deliver each and every time.</div>
-                                            <div class="testimonial-author">Ronald Spice - Owner</div>
-                                        </div>
-                                    </div>
-                                </div> <!-- end of swiper-slide -->
-                                <!-- end of slide -->
-        
-                                <!-- Slide -->
-           <!--                     <div class="swiper-slide">
-                                    <div class="card">
-                                        <img class="card-image" src="images/testimonial-5.jpg" alt="alternative">
-                                        <div class="card-body">
-                                            <div class="testimonial-text">I recommend Aria to every business owner or growth leader that wants to take his company to the next level.</div>
-                                            <div class="testimonial-author">Lindsay Rune - Manager</div>
-                                        </div>
-                                    </div>        
-                                </div> <!-- end of swiper-slide -->
-                                <!-- end of slide -->
-        
-                             <!-- Slide -->
-    <!--                            <div class="swiper-slide">
-                                    <div class="card">
-                                        <img class="card-image" src="images/testimonial-6.jpg" alt="alternative">
-                                        <div class="card-body">
-                                            <div class="testimonial-text">My goals for using Aria's services seemed high when I first set them but they've met them with no problems.</div>
-                                            <div class="testimonial-author">Ann Black - Consultant</div>
-                                        </div>
-                                    </div>        
-                                </div> <!-- end of swiper-slide -->
-                                <!-- end of slide -->
                             
-           <!--                 </div> <!-- end of swiper-wrapper -->
         
-                            <!-- Add Arrows -->
-     <!--                       <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
-                            <!-- end of add arrows -->
-        
-                        </div> <!-- end of swiper-container -->
-                    </div> <!-- end of sliedr-container -->
+  <!--                      </div> <!-- end of swiper-container -->
+ <!--                   </div>
+            <!-- end of slider-container -->
                     <!-- end of card slider -->
 
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of slider -->
-    <!-- end of testimonials -->        
-
-
-    <!-- Call Me -->
-<!--      <div id="callMe" class="form-1">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="text-container">
-                        <div class="section-title">CALL ME</div>
-                        <h2 class="white">Have Us Contact You By Filling And Submitting The Form</h2>
-                        <p class="white">You are just a few steps away from a personalized offer. Just fill in the form and send it to us and we'll get right back with a call to help you decide what service package works.</p>
-                        <ul class="list-unstyled li-space-lg white">
-                            <li class="media">
-                                <i class="fas fa-square"></i>
-                                <div class="media-body">It's very easy just fill in the form so we can call</div>
-                            </li>
-                            <li class="media">
-                                <i class="fas fa-square"></i>
-                                <div class="media-body">During the call we'll require some info about the company</div>
-                            </li>
-                            <li class="media">
-                                <i class="fas fa-square"></i>
-                                <div class="media-body">Don't hesitate to email us for any questions or inquiries</div>
-                            </li>
-                        </ul>
-                    </div>
-                </div> <!-- end of col -->
-     <!--           <div class="col-lg-6">
-                   
-                    <!-- Call Me Form -->
-     <!--               <form id="callMeForm" data-toggle="validator" data-focus="false">
-                        <div class="form-group">
-                            <input type="text" class="form-control-input" id="lname" name="lname" required>
-                            <label class="label-control" for="lname">Name</label>
-                            <div class="help-block with-errors"></div>
-                        </div>
-                        <div class="form-group">
-                            <input type="text" class="form-control-input" id="lphone" name="lphone" required>
-                            <label class="label-control" for="lphone">Phone</label>
-                            <div class="help-block with-errors"></div>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" class="form-control-input" id="lemail" name="lemail" required>
-                            <label class="label-control" for="lemail">Email</label>
-                            <div class="help-block with-errors"></div>
-                        </div>
-                        <div class="form-group">
-                            <select class="form-control-select" id="lselect" required>
-                                <option class="select-option" value="" disabled selected>Interested in...</option>
-                                <option class="select-option" value="Off The Ground">Off The Ground</option>
-                                <option class="select-option" value="Accelerated Growth">Accelerated Growth</option>
-                                <option class="select-option" value="Market Domination">Market Domination</option>
-                            </select>
-                            <div class="help-block with-errors"></div>
-                        </div>
-                        <div class="form-group checkbox white">
-                            <input type="checkbox" id="lterms" value="Agreed-to-Terms" name="lterms" required>I agree with Aria's stated <a class="white" href="privacy-policy.html">Privacy Policy</a> and <a class="white" href="terms-conditions.html">Terms & Conditions</a>
-                            <div class="help-block with-errors"></div>
-                        </div>
-                        <div class="form-group">
-                            <button type="submit" class="form-control-submit-button">CALL ME</button>
-                        </div>
-                        <div class="form-message">
-                            <div id="lmsgSubmit" class="h3 text-center hidden"></div>
-                        </div>
-                    </form>
-                    <!-- end of call me form -->
-                    
-   <!--             </div> <!-- end of col -->
-    <!--        </div> <!-- end of row -->
-<!--           </div> <!-- end of container -->
-<!--      </div> <!-- end of form-1 -->
-    <!-- end of call me -->
-
-
-    <!-- Projects -->
-	<div id="projects" class="filter">
-		<div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-title"></div>
-                    <h1>Department That We're Proud Of</h1>
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-            <div class="row">
-                <div class="col-lg-12">
-                    <!-- Filter -->
-                    <div class="button-group filters-button-group">
-                        <a class="button is-checked" data-filter="*"><span>SHOW ALL</span></a>
-                        <a class="button" data-filter=".design"><span>DESIGN</span></a>
-                        <a class="button" data-filter=".development"><span>DEVELOPMENT</span></a>
-                        <a class="button" data-filter=".marketing"><span>MARKETING</span></a>
-                        <a class="button" data-filter=".seo"><span>SEO</span></a>
-                    </div> <!-- end of button group -->
-                    <div class="grid">
-                        <div class="element-item development">
-                            <a class="popup-with-move-anim" href="#project-1"><div class="element-item-overlay"><span>Online Banking</span></div><img src="images/project-1.jpg" alt="alternative"></a>
-                        </div>
-                        <div class="element-item development">
-                            <a class="popup-with-move-anim" href="#project-2"><div class="element-item-overlay"><span>Classic Industry</span></div><img src="images/project-2.jpg" alt="alternative"></a>
-                        </div>
-                        <div class="element-item design development marketing">
-                            <a class="popup-with-move-anim" href="#project-3"><div class="element-item-overlay"><span>BoomBap Audio</span></div><img src="images/project-3.jpg" alt="alternative"></a>
-                        </div>
-                        <div class="element-item design development marketing">
-                            <a class="popup-with-move-anim" href="#project-4"><div class="element-item-overlay"><span>Van Moose</span></div><img src="images/project-4.jpg" alt="alternative"></a>
-                        </div>
-                        <div class="element-item design development marketing seo">
-                            <a class="popup-with-move-anim" href="#project-5"><div class="element-item-overlay"><span>Joy Moments</span></div><img src="images/project-5.jpg" alt="alternative"></a>
-                        </div>
-                        <div class="element-item design marketing seo">
-                            <a class="popup-with-move-anim" href="#project-6"><div class="element-item-overlay"><span>Spark Events</span></div><img src="images/project-6.jpg" alt="alternative"></a>
-                        </div>
-                        <div class="element-item design marketing">
-                            <a class="popup-with-move-anim" href="#project-7"><div class="element-item-overlay"><span>Casual Wear</span></div><img src="images/project-7.jpg" alt="alternative"></a>
-                        </div>
-                        <div class="element-item design marketing">
-                            <a class="popup-with-move-anim" href="#project-8"><div class="element-item-overlay"><span>Zazoo Apps</span></div><img src="images/project-8.jpg" alt="alternative"></a>
-                        </div>
-                    </div> <!-- end of grid -->
-                    <!-- end of filter -->
-                    
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-		</div> <!-- end of container -->
-    </div> <!-- end of filter -->
-    <!-- end of projects -->
-
-
-    <!-- Project Lightboxes -->
-    <!-- Lightbox -->
-    <div id="project-1" class="lightbox-basic zoom-anim-dialog mfp-hide">
-        <div class="row">
-            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
-            <div class="col-lg-8">
-                <img class="img-fluid" src="images/project-1.jpg" alt="alternative">
-            </div> <!-- end of col -->
-            <div class="col-lg-4">
-                <h3>Online Banking</h3>
-                <hr class="line-heading">
-                <h6>Strategy Development</h6>
-                <p>Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current needs</p>
-                <p>By offering the best professional services and quality products in the market. Don't hesitate and get in touch with us.</p>
-                <div class="testimonial-container">
-                    <p class="testimonial-text">Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current requirements.</p>
-                    <p class="testimonial-author">General Manager</p>
-                </div>
-                <a class="btn-solid-reg" href="#your-link">DETAILS</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
-            </div> <!-- end of col -->
-        </div> <!-- end of row -->
-    </div> <!-- end of lightbox-basic -->
-    <!-- end of lightbox -->
-
-    <!-- Lightbox -->
-    <div id="project-2" class="lightbox-basic zoom-anim-dialog mfp-hide">
-        <div class="row">
-            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
-            <div class="col-lg-8">
-                <img class="img-fluid" src="images/project-2.jpg" alt="alternative">
-            </div> <!-- end of col -->
-            <div class="col-lg-4">
-                <h3>Classic Industry</h3>
-                <hr class="line-heading">
-                <h6>Strategy Development</h6>
-                <p>Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current needs</p>
-                <p>By offering the best professional services and quality products in the market. Don't hesitate and get in touch with us.</p>
-                <div class="testimonial-container">
-                    <p class="testimonial-text">Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current requirements.</p>
-                    <p class="testimonial-author">General Manager</p>
-                </div>
-                <a class="btn-solid-reg" href="#your-link">DETAILS</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
-            </div> <!-- end of col -->
-        </div> <!-- end of row -->
-    </div> <!-- end of lightbox-basic -->
-    <!-- end of lightbox -->
-
-    <!-- Lightbox -->
-    <div id="project-3" class="lightbox-basic zoom-anim-dialog mfp-hide">
-        <div class="row">
-            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
-            <div class="col-lg-8">
-                <img class="img-fluid" src="images/project-3.jpg" alt="alternative">
-            </div> <!-- end of col -->
-            <div class="col-lg-4">
-                <h3>BoomBap Audio</h3>
-                <hr class="line-heading">
-                <h6>Strategy Development</h6>
-                <p>Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current needs</p>
-                <p>By offering the best professional services and quality products in the market. Don't hesitate and get in touch with us.</p>
-                <div class="testimonial-container">
-                    <p class="testimonial-text">Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current requirements.</p>
-                    <p class="testimonial-author">General Manager</p>
-                </div>
-                <a class="btn-solid-reg" href="#your-link">DETAILS</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
-            </div> <!-- end of col -->
-        </div> <!-- end of row -->
-    </div> <!-- end of lightbox-basic -->
-    <!-- end of lightbox -->
-
-    <!-- Lightbox -->
-    <div id="project-4" class="lightbox-basic zoom-anim-dialog mfp-hide">
-        <div class="row">
-            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
-            <div class="col-lg-8">
-                <img class="img-fluid" src="images/project-4.jpg" alt="alternative">
-            </div> <!-- end of col -->
-            <div class="col-lg-4">
-                <h3>Van Moose</h3>
-                <hr class="line-heading">
-                <h6>Strategy Development</h6>
-                <p>Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current needs</p>
-                <p>By offering the best professional services and quality products in the market. Don't hesitate and get in touch with us.</p>
-                <div class="testimonial-container">
-                    <p class="testimonial-text">Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current requirements.</p>
-                    <p class="testimonial-author">General Manager</p>
-                </div>
-                <a class="btn-solid-reg" href="#your-link">DETAILS</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
-            </div> <!-- end of col -->
-        </div> <!-- end of row -->
-    </div> <!-- end of lightbox-basic -->
-    <!-- end of lightbox -->
-
-    <!-- Lightbox -->
-    <div id="project-5" class="lightbox-basic zoom-anim-dialog mfp-hide">
-        <div class="row">
-            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
-            <div class="col-lg-8">
-                <img class="img-fluid" src="images/project-5.jpg" alt="alternative">
-            </div> <!-- end of col -->
-            <div class="col-lg-4">
-                <h3>Joy Moments</h3>
-                <hr class="line-heading">
-                <h6>Strategy Development</h6>
-                <p>Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current needs</p>
-                <p>By offering the best professional services and quality products in the market. Don't hesitate and get in touch with us.</p>
-                <div class="testimonial-container">
-                    <p class="testimonial-text">Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current requirements.</p>
-                    <p class="testimonial-author">General Manager</p>
-                </div>
-                <a class="btn-solid-reg" href="#your-link">DETAILS</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
-            </div> <!-- end of col -->
-        </div> <!-- end of row -->
-    </div> <!-- end of lightbox-basic -->
-    <!-- end of lightbox -->
-
-    <!-- Lightbox -->
-    <div id="project-6" class="lightbox-basic zoom-anim-dialog mfp-hide">
-        <div class="row">
-            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
-            <div class="col-lg-8">
-                <img class="img-fluid" src="images/project-6.jpg" alt="alternative">
-            </div> <!-- end of col -->
-            <div class="col-lg-4">
-                <h3>Spark Events</h3>
-                <hr class="line-heading">
-                <h6>Strategy Development</h6>
-                <p>Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current needs</p>
-                <p>By offering the best professional services and quality products in the market. Don't hesitate and get in touch with us.</p>
-                <div class="testimonial-container">
-                    <p class="testimonial-text">Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current requirements.</p>
-                    <p class="testimonial-author">General Manager</p>
-                </div>
-                <a class="btn-solid-reg" href="#your-link">DETAILS</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
-            </div> <!-- end of col -->
-        </div> <!-- end of row -->
-    </div> <!-- end of lightbox-basic -->
-    <!-- end of lightbox -->
-
-    <!-- Lightbox -->
-    <div id="project-7" class="lightbox-basic zoom-anim-dialog mfp-hide">
-        <div class="row">
-            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
-            <div class="col-lg-8">
-                <img class="img-fluid" src="images/project-7.jpg" alt="alternative">
-            </div> <!-- end of col -->
-            <div class="col-lg-4">
-                <h3>Casual Wear</h3>
-                <hr class="line-heading">
-                <h6>Strategy Development</h6>
-                <p>Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current needs</p>
-                <p>By offering the best professional services and quality products in the market. Don't hesitate and get in touch with us.</p>
-                <div class="testimonial-container">
-                    <p class="testimonial-text">Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current requirements.</p>
-                    <p class="testimonial-author">General Manager</p>
-                </div>
-                <a class="btn-solid-reg" href="#your-link">DETAILS</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
-            </div> <!-- end of col -->
-        </div> <!-- end of row -->
-    </div> <!-- end of lightbox-basic -->
-    <!-- end of lightbox -->
-
-    <!-- Lightbox -->
-    <div id="project-8" class="lightbox-basic zoom-anim-dialog mfp-hide">
-        <div class="row">
-            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
-            <div class="col-lg-8">
-                <img class="img-fluid" src="images/project-8.jpg" alt="alternative">
-            </div> <!-- end of col -->
-            <div class="col-lg-4">
-                <h3>Zazoo Apps</h3>
-                <hr class="line-heading">
-                <h6>Strategy Development</h6>
-                <p>Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current needs</p>
-                <p>By offering the best professional services and quality products in the market. Don't hesitate and get in touch with us.</p>
-                <div class="testimonial-container">
-                    <p class="testimonial-text">Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current requirements.</p>
-                    <p class="testimonial-author">General Manager</p>
-                </div>
-                <a class="btn-solid-reg" href="#your-link">DETAILS</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
-            </div> <!-- end of col -->
-        </div> <!-- end of row -->
-    </div> <!-- end of lightbox-basic -->
-    <!-- end of lightbox -->
-    <!-- end of project lightboxes -->
-
-
-   
-
-
-    <!-- About -->
-            
-            <div id="about" class="filter">
-		<div class="container">
-       <!--     <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-title">PROJECTS</div>
-                    <h2>Projects That We're Proud Of</h2>
-                </div> <!-- end of col -->
-    <!--        </div> <!-- end of row -->
-<!--            <div class="row">
-                <div class="col-lg-12">
-                    <!-- Filter -->
-<!--                    <div class="button-group filters-button-group">
-                        <a class="button is-checked" data-filter="*"><span>SHOW ALL</span></a>
-                        <a class="button" data-filter=".design"><span>DESIGN</span></a>
-                        <a class="button" data-filter=".development"><span>DEVELOPMENT</span></a>
-                        <a class="button" data-filter=".marketing"><span>MARKETING</span></a>
-                        <a class="button" data-filter=".seo"><span>SEO</span></a>
-                    </div> <!-- end of button group -->
-<!--                    <div class="grid">
-                        <div class="element-item development">
-                            <a class="popup-with-move-anim" href="#project-1"><div class="element-item-overlay"><span>Online Banking</span></div><img src="images/project-1.jpg" alt="alternative"></a>
-                        </div>
-                        <div class="element-item development">
-                            <a class="popup-with-move-anim" href="#project-2"><div class="element-item-overlay"><span>Classic Industry</span></div><img src="images/project-2.jpg" alt="alternative"></a>
-                        </div>
-                        <div class="element-item design development marketing">
-                            <a class="popup-with-move-anim" href="#project-3"><div class="element-item-overlay"><span>BoomBap Audio</span></div><img src="images/project-3.jpg" alt="alternative"></a>
-                        </div>
-                        <div class="element-item design development marketing">
-                            <a class="popup-with-move-anim" href="#project-4"><div class="element-item-overlay"><span>Van Moose</span></div><img src="images/project-4.jpg" alt="alternative"></a>
-                        </div>
-                        <div class="element-item design development marketing seo">
-                            <a class="popup-with-move-anim" href="#project-5"><div class="element-item-overlay"><span>Joy Moments</span></div><img src="images/project-5.jpg" alt="alternative"></a>
-                        </div>
-                        <div class="element-item design marketing seo">
-                            <a class="popup-with-move-anim" href="#project-6"><div class="element-item-overlay"><span>Spark Events</span></div><img src="images/project-6.jpg" alt="alternative"></a>
-                        </div>
-                        <div class="element-item design marketing">
-                            <a class="popup-with-move-anim" href="#project-7"><div class="element-item-overlay"><span>Casual Wear</span></div><img src="images/project-7.jpg" alt="alternative"></a>
-                        </div>
-                        <div class="element-item design marketing">
-                            <a class="popup-with-move-anim" href="#project-8"><div class="element-item-overlay"><span>Zazoo Apps</span></div><img src="images/project-8.jpg" alt="alternative"></a>
-                        </div>
-                    </div> <!-- end of grid -->
-                    <!-- end of filter -->
-                    
   <!--              </div> <!-- end of col -->
-<!--            </div> <!-- end of row -->
-<!--		</div> <!-- end of container -->
-<!--    </div> <!-- end of filter -->
-    <!-- end of projects -->
-
-
-    <!-- Project Lightboxes -->
-    <!-- Lightbox -->
-<!--      <div id="project-1" class="lightbox-basic zoom-anim-dialog mfp-hide">
-        <div class="row">
-            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
-            <div class="col-lg-8">
-                <img class="img-fluid" src="images/project-1.jpg" alt="alternative">
-            </div> <!-- end of col -->
-     <!--       <div class="col-lg-4">
-                <h3>Online Banking</h3>
-                <hr class="line-heading">
-                <h6>Strategy Development</h6>
-                <p>Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current needs</p>
-                <p>By offering the best professional services and quality products in the market. Don't hesitate and get in touch with us.</p>
-                <div class="testimonial-container">
-                    <p class="testimonial-text">Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current requirements.</p>
-                    <p class="testimonial-author">General Manager</p>
-                </div>
-                <a class="btn-solid-reg" href="#your-link">DETAILS</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
-            </div> <!-- end of col -->
-<!--        </div> <!-- end of row -->
-<!--    </div> <!-- end of lightbox-basic -->
-    <!-- end of lightbox -->
-
-    <!-- Lightbox -->
-  <!--  <div id="project-2" class="lightbox-basic zoom-anim-dialog mfp-hide">
-        <div class="row">
-            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
-            <div class="col-lg-8">
-                <img class="img-fluid" src="images/project-2.jpg" alt="alternative">
-            </div> <!-- end of col -->
-<!--            <div class="col-lg-4">
-                <h3>Classic Industry</h3>
-                <hr class="line-heading">
-                <h6>Strategy Development</h6>
-                <p>Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current needs</p>
-                <p>By offering the best professional services and quality products in the market. Don't hesitate and get in touch with us.</p>
-                <div class="testimonial-container">
-                    <p class="testimonial-text">Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current requirements.</p>
-                    <p class="testimonial-author">General Manager</p>
-                </div>
-                <a class="btn-solid-reg" href="#your-link">DETAILS</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
-            </div> <!-- end of col -->
-<!--        </div> <!-- end of row -->
-<!--        </div> <!-- end of lightbox-basic -->
-    <!-- end of lightbox -->
-
-    <!-- Lightbox -->
-<!--    <div id="project-3" class="lightbox-basic zoom-anim-dialog mfp-hide">
-        <div class="row">
-            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
-            <div class="col-lg-8">
-                <img class="img-fluid" src="images/project-3.jpg" alt="alternative">
-            </div> <!-- end of col -->
-<!--            <div class="col-lg-4">
-                <h3>BoomBap Audio</h3>
-                <hr class="line-heading">
-                <h6>Strategy Development</h6>
-                <p>Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current needs</p>
-                <p>By offering the best professional services and quality products in the market. Don't hesitate and get in touch with us.</p>
-                <div class="testimonial-container">
-                    <p class="testimonial-text">Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current requirements.</p>
-                    <p class="testimonial-author">General Manager</p>
-                </div>
-                <a class="btn-solid-reg" href="#your-link">DETAILS</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
-            </div> <!-- end of col -->
-   <!--     </div> <!-- end of row -->
-  <!--  </div> <!-- end of lightbox-basic -->
-    <!-- end of lightbox -->
-
-    <!-- Lightbox -->
-<!--          <div id="project-4" class="lightbox-basic zoom-anim-dialog mfp-hide">
-        <div class="row">
-            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
-            <div class="col-lg-8">
-                <img class="img-fluid" src="images/project-4.jpg" alt="alternative">
-            </div> <!-- end of col -->
-     <!--       <div class="col-lg-4">
-                <h3>Van Moose</h3>
-                <hr class="line-heading">
-                <h6>Strategy Development</h6>
-                <p>Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current needs</p>
-                <p>By offering the best professional services and quality products in the market. Don't hesitate and get in touch with us.</p>
-                <div class="testimonial-container">
-                    <p class="testimonial-text">Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current requirements.</p>
-                    <p class="testimonial-author">General Manager</p>
-                </div>
-                <a class="btn-solid-reg" href="#your-link">DETAILS</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
-            </div> <!-- end of col -->
- <!--       </div> <!-- end of row -->
-<!--         </div> <!-- end of lightbox-basic -->
-    <!-- end of lightbox -->
-
-    <!-- Lightbox -->
-<!--          <div id="project-5" class="lightbox-basic zoom-anim-dialog mfp-hide">
-        <div class="row">
-            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
-            <div class="col-lg-8">
-                <img class="img-fluid" src="images/project-5.jpg" alt="alternative">
-            </div> <!-- end of col -->
-<!--            <div class="col-lg-4">
-                <h3>Joy Moments</h3>
-                <hr class="line-heading">
-                <h6>Strategy Development</h6>
-                <p>Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current needs</p>
-                <p>By offering the best professional services and quality products in the market. Don't hesitate and get in touch with us.</p>
-                <div class="testimonial-container">
-                    <p class="testimonial-text">Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current requirements.</p>
-                    <p class="testimonial-author">General Manager</p>
-                </div>
-                <a class="btn-solid-reg" href="#your-link">DETAILS</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
-            </div> <!-- end of col -->
-  <!--      </div> <!-- end of row -->
-  <!--     </div> <!-- end of lightbox-basic -->
-    <!-- end of lightbox -->
-
-    <!-- Lightbox -->
- <!--   <div id="project-6" class="lightbox-basic zoom-anim-dialog mfp-hide">
-        <div class="row">
-            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
-            <div class="col-lg-8">
-                <img class="img-fluid" src="images/project-6.jpg" alt="alternative">
-            </div> <!-- end of col -->
-<!--            <div class="col-lg-4">
-                <h3>Spark Events</h3>
-                <hr class="line-heading">
-                <h6>Strategy Development</h6>
-                <p>Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current needs</p>
-                <p>By offering the best professional services and quality products in the market. Don't hesitate and get in touch with us.</p>
-                <div class="testimonial-container">
-                    <p class="testimonial-text">Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current requirements.</p>
-                    <p class="testimonial-author">General Manager</p>
-                </div>
-                <a class="btn-solid-reg" href="#your-link">DETAILS</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
-            </div> <!-- end of col -->
- <!--       </div> <!-- end of row -->
-<!--      </div> <!-- end of lightbox-basic -->
-    <!-- end of lightbox -->
-
-    <!-- Lightbox -->
-<!--         <div id="project-7" class="lightbox-basic zoom-anim-dialog mfp-hide">
-        <div class="row">
-            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
-            <div class="col-lg-8">
-                <img class="img-fluid" src="images/project-7.jpg" alt="alternative">
-            </div> <!-- end of col -->
-   <!--         <div class="col-lg-4">
-                <h3>Casual Wear</h3>
-                <hr class="line-heading">
-                <h6>Strategy Development</h6>
-                <p>Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current needs</p>
-                <p>By offering the best professional services and quality products in the market. Don't hesitate and get in touch with us.</p>
-                <div class="testimonial-container">
-                    <p class="testimonial-text">Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current requirements.</p>
-                    <p class="testimonial-author">General Manager</p>
-                </div>
-                <a class="btn-solid-reg" href="#your-link">DETAILS</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
-            </div> <!-- end of col -->
- <!--       </div> <!-- end of row -->
-  <!--     </div> <!-- end of lightbox-basic -->
-    <!-- end of lightbox -->
-
-    <!-- Lightbox -->
-   <!-- <div id="project-8" class="lightbox-basic zoom-anim-dialog mfp-hide">
-        <div class="row">
-            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
-            <div class="col-lg-8">
-                <img class="img-fluid" src="images/project-8.jpg" alt="alternative">
-            </div> <!-- end of col -->
-    <!--        <div class="col-lg-4">
-                <h3>Zazoo Apps</h3>
-                <hr class="line-heading">
-                <h6>Strategy Development</h6>
-                <p>Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current needs</p>
-                <p>By offering the best professional services and quality products in the market. Don't hesitate and get in touch with us.</p>
-                <div class="testimonial-container">
-                    <p class="testimonial-text">Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current requirements.</p>
-                    <p class="testimonial-author">General Manager</p>
-                </div>
-                <a class="btn-solid-reg" href="#your-link">DETAILS</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
-            </div> <!-- end of col -->
-  <!--      </div> <!-- end of row -->
- <!--   </div> <!-- end of lightbox-basic -->
-    <!-- end of lightbox -->
-    <!-- end of project lightboxes -->
-
-
-    <!-- Team -->
-    <div class="basic-2">
+  <!--          </div> <!-- end of row -->
+  <!--      </div> <!-- end of container -->
+  <!--  </div> <!-- end of slider -->
+  <!--      </div><!-- end of container-->
+  <!--    </div>
+    <!-- End of blogs-->
+           
+    <!-- About -->
+    <div id="about" class="filter">
+		<div class="container">
+       <div class="basic-2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -1883,14 +782,14 @@
                     </div>
     
           </div>
-            </div>
+            </div> <!-- end of row-->
             
             
             <div class="row">
                 <div class="col-lg-12">
 
                     <!-- Team Member -->
-                    <div class="team-member shadow-lg p-3 mb-5 bg-white rounded">
+                 <div class="team-member shadow-lg p-3 mb-5 bg-white rounded">
                         <div class="image-wrapper ">
                             <img class="img-fluid" src="images/screen.png" alt="alternative">
                         </div> <!-- end of image-wrapper -->
@@ -1898,47 +797,49 @@
                         <p class="job-title">Chair Person</p>
                         <span class="social-icons">
                             <span class="fa-stack">
-                                <a href="#your-link">
+                                <a href="https://www.instagram.com/aryan_agrawal711/?hl=en">
                                     <span class="hexagon"></span>
-                                    <i class="fab fa-facebook-f fa-stack-1x"></i>
+                                    <i class="fab fa-instagram fa-stack-1x"></i>
                                 </a>
-                            </span>
+                            </span> 
                             <span class="fa-stack">
-                                <a href="#your-link">
+                                <a href="https://www.linkedin.com/in/aryan-agrawal-5b08871a6">
                                     <span class="hexagon"></span>
-                                    <i class="fab fa-twitter fa-stack-1x"></i>
+                                    <i class="fab fa-linkedin-in fa-stack-1x"></i>
                                 </a>
                             </span>
+                            
                         </span>
                     </div> <!-- end of team-member -->
                     <!-- end of team member -->
 
                     <!-- Team Member -->
-                    <div class="team-member shadow-lg p-3 mb-5 bg-white rounded">
+               <div class="team-member shadow-lg p-3 mb-5 bg-white rounded">
                         <div class="image-wrapper">
                             <img class="img-fluid" src="images/screen-2.png" alt="alternative">
                         </div> <!-- end of image wrapper -->
                         <p class="p-large">Aananya Jaiswal</p>
                         <p class="job-title">Vice Chairperson</p>
                         <span class="social-icons">
-                            <span class="fa-stack">
-                                <a href="#your-link">
+                             <span class="fa-stack">
+                                <a href="https://www.instagram.com/jais_ananya/">
                                     <span class="hexagon"></span>
-                                    <i class="fab fa-facebook-f fa-stack-1x"></i>
+                                    <i class="fab fa-instagram fa-stack-1x"></i>
+                                </a>
+                            </span> 
+                            <span class="fa-stack">
+                                <a href="https://www.linkedin.com/in/ananya-jaiswal-4017211b3">
+                                    <span class="hexagon"></span>
+                                    <i class="fab fa-linkedin-in fa-stack-1x"></i>
                                 </a>
                             </span>
-                            <span class="fa-stack">
-                                <a href="#your-link">
-                                    <span class="hexagon"></span>
-                                    <i class="fab fa-twitter fa-stack-1x"></i>
-                                </a>
-                            </span>
+                           
                         </span>
-                    </div> <!-- end of team-member -->
+                    </div><!-- end of team-member -->
                     <!-- end of team member -->
 
                     <!-- Team Member -->
-                    <div class="team-member shadow-lg p-3 mb-5 bg-white rounded">
+                 <div class="team-member shadow-lg p-3 mb-5 bg-white rounded">
                         <div class="image-wrapper">
                             <img class="img-fluid" src="images/screen-6.png" alt="alternative">
                         </div> <!-- end of image wrapper -->
@@ -1948,85 +849,93 @@
                             <span class="fa-stack">
                                 <a href="#your-link">
                                     <span class="hexagon"></span>
-                                    <i class="fab fa-facebook-f fa-stack-1x"></i>
+                                    <i class="fab fa-instagram fa-stack-1x"></i>
                                 </a>
-                            </span>
+                            </span> 
                             <span class="fa-stack">
-                                <a href="#your-link">
+                                <a href="https://www.linkedin.com/in/shantanu-nikam-09b3041a0">
                                     <span class="hexagon"></span>
-                                    <i class="fab fa-twitter fa-stack-1x"></i>
+                                    <i class="fab fa-linkedin-in fa-stack-1x"></i>
                                 </a>
                             </span>
+                            
                         </span>
                     </div> <!-- end of team-member -->
                     <!-- end of team member -->
 
                     <!-- Team Member -->
-                    <div class="team-member shadow-lg p-3 mb-5 bg-white rounded">
+                <div class="team-member shadow-lg p-3 mb-5 bg-white rounded">
                         <div class="image-wrapper">
                             <img class="img-fluid" src="images/screen-3.png" alt="alternative">
                         </div> <!-- end of image wrapper -->
                         <p class="p-large">Palak Toshniwal</p>
                         <p class="job-title">Co-Secretary</p>
-                        <span class="social-icons">
-                            <span class="fa-stack">
+                       <span class="social-icons">
+                           <span class="fa-stack">
+                                <a href="https://www.instagram.com/palak.toshniwal.75/">
+                                    <span class="hexagon"></span>
+                                    <i class="fab fa-instagram fa-stack-1x"></i>
+                                </a>
+                            </span>  
+                           <span class="fa-stack">
                                 <a href="#your-link">
                                     <span class="hexagon"></span>
-                                    <i class="fab fa-facebook-f fa-stack-1x"></i>
+                                    <i class="fab fa-linkedin-in fa-stack-1x"></i>
                                 </a>
                             </span>
-                            <span class="fa-stack">
-                                <a href="#your-link">
-                                    <span class="hexagon"></span>
-                                    <i class="fab fa-twitter fa-stack-1x"></i>
-                                </a>
-                            </span>
+                            
                         </span>
                     </div>
                     
-                     <div class="team-member shadow-lg p-3 mb-5 bg-white rounded">
+                 <div class="team-member shadow-lg p-3 mb-5 bg-white rounded">
                         <div class="image-wrapper">
-                            <img class="img-fluid" src="images/screen-8.jpg" alt="alternative">
+                           <a href="lovish.html"> <img class="img-fluid" src="images/screen-8.jpg" alt="alternative"></a>
                         </div> <!-- end of image wrapper -->
                         <p class="p-large">Lovish Sethi</p>
                         <p class="job-title">Technical Head</p>
-                        <span class="social-icons">
-                            <span class="fa-stack">
-                                <a href="#your-link">
+                       <span class="social-icons">
+                           <span class="fa-stack">
+                                <a href="https://www.instagram.com/sethilovish1/?hl=en">
                                     <span class="hexagon"></span>
-                                    <i class="fab fa-facebook-f fa-stack-1x"></i>
+                                    <i class="fab fa-instagram fa-stack-1x"></i>
+                                </a>
+                            </span> 
+                           <span class="fa-stack">
+                                <a href="https://www.linkedin.com/in/lovish-sethi-4527aa16a/">
+                                    <span class="hexagon"></span>
+                                    <i class="fab fa-linkedin-in fa-stack-1x"></i>
                                 </a>
                             </span>
-                            <span class="fa-stack">
-                                <a href="#your-link">
-                                    <span class="hexagon"></span>
-                                    <i class="fab fa-twitter fa-stack-1x"></i>
-                                </a>
-                            </span>
+                            
                         </span>
                     </div>
-                     <div class="team-member shadow-lg p-3 mb-5 bg-white rounded">
+                    
+                    
+                    <div class="team-member shadow-lg p-3 mb-5 bg-white rounded">
                         <div class="image-wrapper">
                             <img class="img-fluid" src="images/screen-10.png" alt="alternative">
                         </div> <!-- end of image wrapper -->
                         <p class="p-large">Rohith Gamini</p>
                         <p class="job-title">Degign Head</p>
                         <span class="social-icons">
-                            <span class="fa-stack">
-                                <a href="#your-link">
+                           <span class="fa-stack">
+                                <a href="https://www.instagram.com/rohith_gamini/">
                                     <span class="hexagon"></span>
-                                    <i class="fab fa-facebook-f fa-stack-1x"></i>
+                                    <i class="fab fa-instagram fa-stack-1x"></i>
+                                </a>
+                            </span> 
+                            <span class="fa-stack">
+                                <a href="http://www.linkedin.com/in/rohith-sai-gamini">
+                                    <span class="hexagon"></span>
+                                    <i class="fab fa-linkedin-in fa-stack-1x"></i>
                                 </a>
                             </span>
-                            <span class="fa-stack">
-                                <a href="#your-link">
-                                    <span class="hexagon"></span>
-                                    <i class="fab fa-twitter fa-stack-1x"></i>
-                                </a>
-                            </span>
+                            
                         </span>
                     </div>
-                     <div class="team-member shadow-lg p-3 mb-5 bg-white rounded">
+                    
+                    
+                    <div class="team-member shadow-lg p-3 mb-5 bg-white rounded">
                         <div class="image-wrapper">
                             <img class="img-fluid" src="images/screen-9.png" alt="alternative">
                         </div> <!-- end of image wrapper -->
@@ -2034,20 +943,23 @@
                         <p class="job-title">Program Chair</p>
                         <span class="social-icons">
                             <span class="fa-stack">
-                                <a href="#your-link">
+                                <a href="https://instagram.com/naveen.ravishankar?igshid=9dwlc9st0hhu">
                                     <span class="hexagon"></span>
-                                    <i class="fab fa-facebook-f fa-stack-1x"></i>
+                                    <i class="fab fa-instagram fa-stack-1x"></i>
                                 </a>
                             </span>
                             <span class="fa-stack">
-                                <a href="#your-link">
+                                <a href="https://www.linkedin.com/in/naveen-s-2169b21b0">
                                     <span class="hexagon"></span>
-                                    <i class="fab fa-twitter fa-stack-1x"></i>
+                                    <i class="fab fa-linkedin-in fa-stack-1x"></i>
                                 </a>
                             </span>
+                            
                         </span>
                     </div>
-                     <div class="team-member shadow-lg p-3 mb-5 bg-white rounded">
+                    
+                    
+                    <div class="team-member shadow-lg p-3 mb-5 bg-white rounded">
                         <div class="image-wrapper">
                             <img class="img-fluid" src="images/aradhaya.png" alt="alternative">
                         </div> <!-- end of image wrapper -->
@@ -2057,18 +969,20 @@
                             <span class="fa-stack">
                                 <a href="#your-link">
                                     <span class="hexagon"></span>
-                                    <i class="fab fa-facebook-f fa-stack-1x"></i>
+                                    <i class="fab fa-linkedin-in fa-stack-1x"></i>
                                 </a>
                             </span>
                             <span class="fa-stack">
                                 <a href="#your-link">
                                     <span class="hexagon"></span>
-                                    <i class="fab fa-twitter fa-stack-1x"></i>
+                                    <i class="fab fa-instagram fa-stack-1x"></i>
                                 </a>
-                            </span>
+                            </span> 
                         </span>
                     </div>
-                     <div class="team-member shadow-lg p-3 mb-5 bg-white rounded">
+                    
+                    
+                  <div class="team-member shadow-lg p-3 mb-5 bg-white rounded">
                         <div class="image-wrapper">
                             <img class="img-fluid" src="images/screen-5.png" alt="alternative">
                         </div> <!-- end of image wrapper -->
@@ -2076,20 +990,23 @@
                         <p class="job-title">Documentation Chair</p>
                         <span class="social-icons">
                             <span class="fa-stack">
-                                <a href="#your-link">
+                                <a href="https://www.instagram.com/anshultripathi0811/?igshid=9famja1jdpwi">
                                     <span class="hexagon"></span>
-                                    <i class="fab fa-facebook-f fa-stack-1x"></i>
+                                    <i class="fab fa-instagram fa-stack-1x"></i>
                                 </a>
-                            </span>
+                            </span> 
                             <span class="fa-stack">
-                                <a href="#your-link">
+                                <a href="https://www.linkedin.com/in/anshultripathihere">
                                     <span class="hexagon"></span>
-                                    <i class="fab fa-twitter fa-stack-1x"></i>
+                                    <i class="fab fa-linkedin-in fa-stack-1x"></i>
                                 </a>
                             </span>
+                           
                         </span>
                     </div>
-                     <div class="team-member shadow-lg p-3 mb-5 bg-white rounded">
+                  
+                    
+                    <div class="team-member shadow-lg p-3 mb-5 bg-white rounded">
                         <div class="image-wrapper">
                             <img class="img-fluid" src="images/screen-4.png" alt="alternative">
                         </div> <!-- end of image wrapper -->
@@ -2097,17 +1014,18 @@
                         <p class="job-title">Publicity Chair</p>
                         <span class="social-icons">
                             <span class="fa-stack">
-                                <a href="#your-link">
+                                <a href="https://www.instagram.com/palashsinha14/">
                                     <span class="hexagon"></span>
-                                    <i class="fab fa-facebook-f fa-stack-1x"></i>
+                                    <i class="fab fa-instagram fa-stack-1x"></i>
                                 </a>
                             </span>
                             <span class="fa-stack">
-                                <a href="#your-link">
+                                <a href="https://www.linkedin.com/in/palash-sinha-223583186">
                                     <span class="hexagon"></span>
-                                    <i class="fab fa-twitter fa-stack-1x"></i>
+                                    <i class="fab fa-linkedin-in fa-stack-1x"></i>
                                 </a>
                             </span>
+                             
                         </span>
                     </div><!-- end of team-member -->
                     <!-- end of team member -->
@@ -2119,52 +1037,9 @@
     <!-- end of team -->
     
             
-            <!--    <div id="about" class="counter">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-xl-6">
-                    <div class="image-container">
-                        <img class="img-fluid" src="images/about.jpg" alt="alternative">
-                    </div> <!-- end of image-container -->
-     <!--           </div> <!-- end of col -->
-         <!--       <div class="col-lg-7 col-xl-6">
-                    <div class="text-container">
-                        <div class="section-title">ABOUT</div>
-                        <h2>We're Passionate About Delivering Growth Services</h2>
-                        <p>Our goal is to provide the right business growth services at the appropriate time so companies can benefit from the created momentum and thrive for a long period of time</p>
-                        <ul class="list-unstyled li-space-lg">
-                            <li class="media">
-                                <i class="fas fa-square"></i>
-                                <div class="media-body">Everything we recommend has direct positive impact</div>
-                            </li>
-                            <li class="media">
-                                <i class="fas fa-square"></i>
-                                <div class="media-body">You will become an important partner of our company</div>
-                            </li>
-                        </ul>
-
-                        <!-- Counter -->
-       <!--                 <div id="counter">
-                            <div class="cell">
-                                <div class="counter-value number-count" data-count="231">1</div>
-                                <div class="counter-info">Happy<br>Users</div>
-                            </div>
-                            <div class="cell">
-                                <div class="counter-value number-count" data-count="121">1</div>
-                                <div class="counter-info">Issues<br>Solved</div>
-                            </div>
-                            <div class="cell">
-                                <div class="counter-value number-count" data-count="159">1</div>
-                                <div class="counter-info">Good<br>Reviews</div>
-                            </div>
-                        </div>
-                        <!-- end of counter -->
-
-    <!--                </div> <!-- end of text-container -->      
-    <!--            </div> <!-- end of col -->
-     <!--       </div> <!-- end of row -->
-     <!--        </div> <!-- end of container -->
-     <!--      </div> <!-- end of counter -->
+            
+             </div> <!-- end of container -->
+           </div> <!-- end of filter -->
     <!-- end of about -->
 
 
@@ -2178,21 +1053,21 @@
                         <h2>Get In Touch Using The Form</h2>
                         <p>We will get back to you as soon as possible</p>
                         <ul class="list-unstyled li-space-lg">
-                            <li class="address"><i class="fas fa-map-marker-alt"></i>22nd Innovative Street, San Francisco, CA 94043, US</li>
-                            <li><i class="fas fa-phone"></i><a >+81 8968685522</a></li>
-                            <li><i class="fas fa-phone"></i><a >+81 9549723073</a></li>
+                            <li class="address"><i class="fas fa-map-marker-alt"></i>VIT,vellore-632014</li>
+                            <li><i class="fas fa-phone"></i><a >+91 8968685522</a></li>
+                            <li><i class="fas fa-phone"></i><a >+91 9549723073</a></li>
                             <li><i class="fas fa-envelope"></i><a >ieee.ias@vit.ac.in</a></li>
                         </ul>
                         <h3>Follow Us On Social Media</h3>
 
                         <span class="fa-stack">
-                            <a href="#your-link">
+                            <a href="https://www.facebook.com/ieeeiasvit/">
                                 <span class="hexagon"></span>
                                 <i class="fab fa-facebook-f fa-stack-1x"></i>
                             </a>
                         </span>
                         <span class="fa-stack">
-                            <a href="#your-link">
+                            <a href="https://twitter.com/ieeeias?lang=en">
                                 <span class="hexagon"></span>
                                 <i class="fab fa-twitter fa-stack-1x"></i>
                             </a>
@@ -2205,13 +1080,13 @@
                         </span>
 -->
                         <span class="fa-stack">
-                            <a href="#your-link">
+                            <a href="https://www.instagram.com/ieeeiasvit/?hl=en">
                                 <span class="hexagon"></span>
                                 <i class="fab fa-instagram fa-stack-1x"></i>
                             </a>
                         </span>
                         <span class="fa-stack">
-                            <a href="#your-link">
+                            <a href="https://www.linkedin.com/company/ieeeiasvit/about/">
                                 <span class="hexagon"></span>
                                 <i class="fab fa-linkedin-in fa-stack-1x"></i>
                             </a>
@@ -2245,19 +1120,14 @@
                             <label class="label-control" for="cmessage">Your message</label>
                             <div class="help-block with-errors"></div>
                         </div>
-                   <!--    <div class="form-group checkbox">
-                            <input type="checkbox" id="cterms" value="Agreed-to-Terms" required>I agree with Aria's stated <a href="privacy-policy.html">Privacy Policy</a> and <a href="terms-conditions.html">Terms Conditions</a> 
-                            <div class="help-block with-errors"></div>
-                        </div>
-                        
-                        -->
+                  
                         
                         
                         <div class="form-group">
-                            <button type="submit" class="form-control-submit-button">SUBMIT MESSAGE</button>
+                            <button type="submit" onclick="writeData()" class="form-control-submit-button">SUBMIT MESSAGE</button>
                         </div>
                         <div class="form-message">
-                            <div id="cmsgSubmit" class="h3 text-center hidden"></div>
+                            <div id="cmsgSubmit" onclick="writeData()" class="h3 text-center hidden"></div>
                         </div>
                     </form>
                     <!-- end of contact form -->
@@ -2268,12 +1138,7 @@
     </div> <!-- end of form-2 -->
     <!-- end of contact -->
 
-
-    <!-- Footer -->
-    
-
-
-    <!-- Copyright -->
+     <!-- Copyright -->
     <div class="copyright">
         <div class="container">
             <div class="row">
@@ -2287,17 +1152,59 @@
     
     	
     <!-- Scripts -->
+    
+    
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyBPpYhQG4OFOHuBpOTBo2_3WcmuXRXhwfg",
+    authDomain: "ieeeiaswebsite.firebaseapp.com",
+    projectId: "ieeeiaswebsite",
+    storageBucket: "ieeeiaswebsite.appspot.com",
+    messagingSenderId: "375844956728",
+    appId: "1:375844956728:web:29b578ec5d5181f56494cd",
+    measurementId: "G-SVPEE0E62Q"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+    
+    function writeData() {
+        firebase.database().ref("User").push({
+           name: document.getElementById("cname").value,
+           emailid: document.getElementById("cemail").value,
+           message: document.getElementById("cmessage").value
+            
+        });
+    }
+    
+    
+  firebase.analytics();
+</script>
+    
+    
+    
+    
+    
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>    
             
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="js.js" type="text/javascript"></script> 
         
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
+            
+            <script src="canva.js" type="text/javascript"></script>
             
             
-            
-            
+                        
     <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
     <script src="js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
     <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
