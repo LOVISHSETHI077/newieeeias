@@ -130,11 +130,11 @@ background.onload = function(){
 }
 
 	copy.addEventListener("keyup", initScene);
-	window.addEventListener("resize", initScene);
-	window.addEventListener("mousemove", onMouseMove);
-	window.addEventListener("touchmove", onTouchMove);
-	window.addEventListener("click", onMouseClick);
-	window.addEventListener("touchend", onTouchEnd);
+	//window.addEventListener("resize", initScene);
+	//window.addEventListener("mousemove", onMouseMove);
+	//window.addEventListener("touchmove", onTouchMove);
+	//window.addEventListener("click", onMouseClick);
+	//window.addEventListener("touchend", onTouchEnd);
 	initScene();
 	requestAnimationFrame(render);
 
